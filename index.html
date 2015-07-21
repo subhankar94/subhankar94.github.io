@@ -2,9 +2,9 @@
 <html>
 
 <head>
-	<script type="text/javascript" src="/root/WebDev/jquery-1.9.1.min.js"></script>
-  	<script type="text/javascript" src="/root/WebDev/jquery-ui-1.10.2.custom/js/jquery-1.9.1.js"></script>
-  	<script type="text/javascript" src="jquery.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  	<!-- // <script type="text/javascript" src="jquery.js"></script> -->
 	<script type="text/javascript">
 	    (function() {
 	        var path = '//easy.myfonts.net/v2/js?sid=161377(font-family=FF+DIN+Pro+Light)&sid=161660(font-family=FF+DIN+OT)&key=C5POFs6ZOu',
@@ -18,7 +18,7 @@
 	    })();
 	</script>
 
-	<link href="normalize_base.css" rel="stylesheet" type="text/css">
+	<!-- <link href="normalize_base.css" rel="stylesheet" type="text/css"> -->
 
 	<style type="text/css">
 		#wrap {
@@ -65,28 +65,60 @@
 		  color:            #CC0000;
 		  text-align:       right; 
 		 }
+
+		#sidebar  a:link {color:#CC0000; text-decoration:none; opacity: 0.5;}      /* unvisited link */
+		#sidebar  a:visited {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* visited link */
+		#sidebar  a:hover {color:#CC0000; text-decoration:none; opacity: 1;}  /* mouse over link */
+		#sidebar  a:active {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* selected link */
+
+		p.name {
+		  font-family:    "FF DIN Pro Light", sans-serif;
+		  font-size:      16pt;
+		  color:        black;
+		  letter-spacing:   2pt;
+		  text-align:     left;
+
+		}
+
+		p.heading {
+		  font-family:    "FF DIN Pro Light", sans-serif;
+		  font-size:      12pt;
+		  color:        black;
+		  text-align:     left;
+		  /*letter-spacing:   1pt;*/
+		  /*color:        rgb(128, 128, 128);*/
+		}
+
+		#content  a:link {color:#CC0000; text-decoration:none;}      /* unvisited link */
+		#content  a:visited {color:#CC0000; text-decoration:none;}  /* visited link */
+		#content  a:hover {color:#CC0000; text-decoration:underline;}  /* mouse over link */
+		#content  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
 	</style>
 
 	<script type="text/javascript">
+		// var ss = document.styleSheets[0];
 		$(document).ready(function () {
-			var left = document.getElementById("left");
-			var right = document.getElementsByTagName("right");
-			var sidebar = document.getElementsByTagName("sidebar");
-		    var length = left.style.height - sidebar.style.height() + left.style.offset().top;
+		    var length = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
 		    $(window).scroll(function () {
 		        var scroll = $(this).scrollTop();
-		        var height = sidebar.style.height + 'px';
-		        if (scroll < $left.style.offset().top) {
-		        	sidebar.style.position = 'absolute';
-		        	sidebar.style.top = '0';
+		        var height = $('#sidebar').height() + 'px';
+		        if (scroll < $('#left').offset().top) {
+		            $('#sidebar').css({
+		                'position': 'absolute',
+		                'top': '0'
+		            });
 		        } else if (scroll > length) {
-		        	sidebar.style.position = 'absolute';
-		        	sidebar.style.bottom = '0';
-		        	sidebar.style.top = 'top';
+		            $('#sidebar').css({
+		                'position': 'absolute',
+		                'bottom': '0',
+		                'top': 'auto'
+		            });
 		        } else {
-		        	sidebar.style.position = 'fixed';
-		        	sidebar.style.top = '0';
-		        	sidebar.style.height = height;
+		            $('#sidebar').css({
+		                'position': 'fixed',
+		                'top': '0',
+		                'height': height
+		            });
 		        }
 		    });
 		});
@@ -146,8 +178,8 @@
 				<p class="heading">WHEN I LAST UPDATED THIS PAGE</p>
 
 				<p>I was reading:<br>
-					<a href="">The Annihilation of Caste</a>, B. R. Ambedkar<br>
-					<a href="">Shopgirl</a>, Steve Martin<br>
+					<a href="http://www.versobooks.com/books/1800-annihilation-of-caste">The Annihilation of Caste</a>, B. R. Ambedkar<br>
+					<a href="http://hyperionbooks.com/book/shopgirla-novella/">Shopgirl</a>, Steve Martin<br>
 					<!-- <a href="">The Psychology of Human-Computer Interaction</a>, Stuart K. Card, et. al.</p> -->
 
 				<!-- <p>I was listening to:<br>
@@ -156,8 +188,8 @@
 					<a href="">Channel Orange</a>, Frank Ocean</p><br> -->
 
 				<p>I was listening to:<br>
-					<a href="">Sylva</a>, Snarky Puppy<br>
-					<a href="">Day Trip</a>, Pat Metheny, Chrisitan McBride & Antonio Sanchez</p>
+					<a href="https://itunes.apple.com/us/album/sylva/id980787119">Sylva</a>, Snarky Puppy<br>
+					<a href="https://itunes.apple.com/us/album/day-trip/id272030265">Day Trip</a>, Pat Metheny, Chrisitan McBride & Antonio Sanchez</p>
 			</div>
 				
 			<div id="HOW"><br>

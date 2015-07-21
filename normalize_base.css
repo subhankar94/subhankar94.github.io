@@ -20,7 +20,7 @@ body {
   margin: 0;
 }
 
-/*#wrap {
+#wrap {
   width:        740px;
   margin-left:    auto;
   margin-right:   auto; 
@@ -43,32 +43,32 @@ body {
 }
 
 #left {
-  width:            125.8px;*/
+  width:            125.8px;
   /*float:            left;*/
- /* margin-top:       159px;
+  margin-top:       159px;
   font-family:      "FF DIN Pro Light",sans-serif;
   font-size:        12pt;
-  font-style:       normal;*/
+  font-style:       normal;
   /*letter-spacing:   1pt;*/
-  /*background-color: rgb(255, 255, 255);*/
+  background-color: rgb(255, 255, 255);
   /*color:        rgb(212,175,55);*/
-/*  color:            #CC0000;
+  color:            #CC0000;
   text-align:       right; 
   position:         absolute;
   height:           100%; 
-}*/
+}
 
-/*#sidebar {
-  width:            125.8px;*/
+#sidebar {
+  width:            125.8px;
   /*float:            left;*/
   /*margin-top:       158px;*/
-/*  font-family:      "FF DIN Pro Light",sans-serif;
+  font-family:      "FF DIN Pro Light",sans-serif;
   font-size:        12pt;
   font-style:       normal;
   background-color: rgb(255, 255, 255);
   color:            #CC0000;
   text-align:       right; 
- }*/
+ }
 
 #sidebar  a:link {color:#CC0000; text-decoration:none; opacity: 0.5;}      /* unvisited link */
 #sidebar  a:visited {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* visited link */
