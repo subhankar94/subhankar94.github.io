@@ -16,6 +16,11 @@ html {
  * Remove default margin.
  */
 
+@font-face {
+  font-family: "DINWeb-Light";
+  src: url('DINWeb-Light.woff') format('woff');
+}
+
 body {
   margin: 0;
 }
@@ -32,7 +37,7 @@ body {
   float:          right;
   position:       relative;
   margin-top:     15px;
-  font-family:    "FF DIN Pro Light",sans-serif;
+  font-family:    "DINWeb-Light",sans-serif;
   font-size:      12pt;
   line-height:    18pt;
   font-style:     normal;
@@ -46,7 +51,7 @@ body {
   width:            125.8px;
   /*float:            left;*/
   margin-top:       159px;
-  font-family:      "FF DIN Pro Light",sans-serif;
+  font-family:      "DINWeb-Light",sans-serif;
   font-size:        12pt;
   font-style:       normal;
   /*letter-spacing:   1pt;*/
@@ -62,7 +67,7 @@ body {
   width:            125.8px;
   /*float:            left;*/
   /*margin-top:       158px;*/
-  font-family:      "FF DIN Pro Light",sans-serif;
+  font-family:      "DINWeb-Light",sans-serif;
   font-size:        12pt;
   font-style:       normal;
   background-color: rgb(255, 255, 255);
@@ -76,7 +81,7 @@ body {
 #sidebar  a:active {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* selected link */
 
 p.name {
-  font-family:    "FF DIN Pro Light", sans-serif;
+  font-family:    "DINWeb-Light", sans-serif;
   font-size:      16pt;
   color:        black;
   letter-spacing:   2pt;
@@ -85,7 +90,7 @@ p.name {
 }
 
 p.heading {
-  font-family:    "FF DIN Pro Light", sans-serif;
+  font-family:    "DINWeb-Light", sans-serif;
   font-size:      12pt;
   color:        black;
   text-align:     left;
