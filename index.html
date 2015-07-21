@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script type="text/javascript" src="/root/WebDev/jquery-1.9.1.min.js"></script>
+  	<script type="text/javascript" src="/root/WebDev/jquery-ui-1.10.2.custom/js/jquery-1.9.1.js"></script>
+  	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+	    (function() {
+	        var path = '//easy.myfonts.net/v2/js?sid=161377(font-family=FF+DIN+Pro+Light)&sid=161660(font-family=FF+DIN+OT)&key=C5POFs6ZOu',
+	            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+	            trial = document.createElement('script');
+	        trial.type = 'text/javascript';
+	        trial.async = true;
+	        trial.src = protocol + path;
+	        var head = document.getElementsByTagName("head")[0];
+	        head.appendChild(trial);
+	    })();
+	</script>
+
+	<link href="normalize_base.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+		    var length = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
+		    $(window).scroll(function () {
+		        var scroll = $(this).scrollTop();
+		        var height = $('#sidebar').height() + 'px';
+		        if (scroll < $('#left').offset().top) {
+		            $('#sidebar').css({
+		                'position': 'absolute',
+		                'top': '0'
+		            });
+		        } else if (scroll > length) {
+		            $('#sidebar').css({
+		                'position': 'absolute',
+		                'bottom': '0',
+		                'top': 'auto'
+		            });
+		        } else {
+		            $('#sidebar').css({
+		                'position': 'fixed',
+		                'top': '0',
+		                'height': height
+		            });
+		        }
+		    });
+		});
+	</script>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Subhankar Ghosh Not Inc. Yet">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+	<title>Subhankar Ghosh</title>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="left">
+			<div id="sidebar">
+				<p><a href="#NOW">NOW</a></p>
+				<p><a href="#SOMETIME">SOMETIME AGO</a></p>
+				<p><a href="#LAST">LAST SEEN</a></p>
+				<p><a href="#HOW">HOW I GOT HERE</a></p>
+				<p><a href="">RESUME</a></p>
+				<p><a href="#CONTACT">CONTACT</a></p>
+			</div>
+		</div>	
+
+		<div id="content"><br><br>
+			<p class="name">SUBHANKAR GHOSH</p>
+			<div id="NOW"><br>
+				<p>I'm a student at New York University's College of Arts & Sciences, majoring in Mathematics & Computer Science.</p>
+		
+				<p>If it's still the Summer of 2015, then I'm a Decision Sciences Intern at <a href="http://www.capitalfloat.com">
+					Capital Float</a>, where I help make things that help make decisions, or help make things that make decisions.
+					Yes, that sounds about right.</p>
+
+				<p>However if it is the Fall of 2015, because you hitched a ride in a suspiciously retro futuristic DeLorean or just 
+					because time sort of does that, then I'm back to being a Learning Assistant at NYU's 
+					<a href="http://www.nyu.edu/students/undergraduates/academic-services/undergraduate-advisement/academic-resource-center/tutoring-and-learning.html">
+					University Learning Center</a>, where I tutor Math, CS, Econ, Sociology, and occasionaly offer writing tips to the daring.</p>
+
+				<p>If resumés get your heart racing, here is <a href="">mine</a>.</p>
+			</div>
+
+			<div id="SOMETIME"><br>
+				<p class="heading">BEFORE I "KNEW LOTS OF BUSINESS TERMS LIKE 'MEETING' AND 'ENVELOPE'"<p>		
+					
+				<p>I was born and raised in Bangalore; spent 4 years in a Singaporean boarding school courtesy of the good people
+					at A*STAR and Raffles Institution; and then in an attempt to better understand the meaning of "antipodal", 
+					moved to New York. Also since all the kids are talking about it, 
+					I stand firm with east coast better than no coast.</p>
+
+				<p>I enjoy taking photographs, looking at photographs, though not so much being in photographs. If you'd like to see 
+					some of them, check out my <a href="">tumblr</a>, or my <a href="https://instagram.com/subhankar94/">Instagram</a>. 
+					Also, I make a mean lasagna. Although if I'm doing it alone, with cast iron pots, ceramic baking pans and an 
+					uncooperative rolling pin, it can take me a good 3 hours. (So, apologies if you have asked but not received.)</p>
+			</div>
+
+			<div id="LAST"><br>
+				<p class="heading">WHEN I LAST UPDATED THIS PAGE</p>
+
+				<p>I was reading:<br>
+					<a href="">The Annihilation of Caste</a>, B. R. Ambedkar<br>
+					<a href="">Shopgirl</a>, Steve Martin<br>
+					<!-- <a href="">The Psychology of Human-Computer Interaction</a>, Stuart K. Card, et. al.</p> -->
+
+				<!-- <p>I was listening to:<br>
+					<a href="">Sylva</a>, Snarky Puppy<br>
+					<a href="">Day Trip</a>, Pat Metheny, Chrisitan McBride & Antonio Sanchez<br>
+					<a href="">Channel Orange</a>, Frank Ocean</p><br> -->
+
+				<p>I was listening to:<br>
+					<a href="">Sylva</a>, Snarky Puppy<br>
+					<a href="">Day Trip</a>, Pat Metheny, Chrisitan McBride & Antonio Sanchez</p>
+			</div>
+				
+			<div id="HOW"><br>
+				<p class="heading">HOW I ENDED UP DOING WHAT I'M DOING</p>
+
+				<p>I didn't grow up knowing I wanted to do Math & CS.<br>Here is a what-I'm-going-to-study timeline:<br>
+					2007: Architecture or Industrial Design<br>
+					2008: Probably Architecture or Industrial Design<br>
+					2009: Maybe Architecture or Industrial Design<br>
+					2010: Maybe Economics<br>
+					2011: Probably Economics<br>
+					2012: Probably some combination of Economics, Politics & Philosophy<br>
+					2013: Maybe some combination of Economics, Politics & Philosophy<br>
+					2014: Maybe Economics & Computer Science<br>
+					2015: Maybe Mathematics & Computer Science</p><br>
+			</div>
+
+			<div id="CONTACT"><br>
+				<p class="heading">IF YOU'RE STILL SEARCHING FOR SOMETHING</p>
+				
+				<p>Don't worry. I mean, who isn't? But if it helps, you can find some of the faux-fancy computer code
+					I've written at <a href="https://github.com/subhankar94">GitHub</a> and my professional (there goes my
+					shot at the olympics) profile on <a href="www.linkedin.com/in/subhankar94">LinkedIn</a>. If you'd like
+					to get in touch with me--for advice or something--tweet at me on 
+					<a href="http://www.twitter.com/subhankar94">Twitter</a>, or send me an 
+					<a href="mailto:subhankar.ghosh@nyu.edu">email</a> if you prefer mediocre advice served up longform.</p>
+			</div>
+		 	<br><br>
+		 	<br><br>
+		 </div>
+	</div>
+
+	<!-- 	<div class="contact">
+			<ul>
+				<li><a href="https://github.com/subhankar94">GitHub</a></li>
+				<li><a href="www.linkedin.com/in/subhankar94">LinkedIn</a></li>
+				<li><a href="http://www.twitter.com/subhankar94">Twitter</a></li>
+				<li><a href="mailto:subhankar.ghosh@nyu.edu">eMail</a></li>
+				<li><a href="https://instagram.com/subhankar94/">Instagram</a></li>
+			</ul>
+		</div>	 -->
+</body>
+
+</html>
+
+
+
