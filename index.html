@@ -20,29 +20,73 @@
 
 	<link href="normalize_base.css" rel="stylesheet" type="text/css">
 
+	<style type="text/css">
+		#wrap {
+		  width:        740px;
+		  margin-left:    auto;
+		  margin-right:   auto; 
+		  position:       relative;
+		}
+
+		#content {
+		  width:          600px;
+		  float:          right;
+		  position:       relative;
+		  margin-top:     15px;
+		  font-family:    "FF DIN Pro Light",sans-serif;
+		  font-size:      12pt;
+		  line-height:    18pt;
+		  font-style:     normal;
+		  background-color: rgb(255, 255, 255);
+		  color:          dimgrey;
+		  margin-bottom:  250px;
+		  position:       relative;
+		}
+
+		#left {
+		  width:            125.8px;
+		  margin-top:       159px;
+		  font-family:      "FF DIN Pro Light",sans-serif;
+		  font-size:        12pt;
+		  font-style:       normal;
+		  background-color: rgb(255, 255, 255);
+		  color:            #CC0000;
+		  text-align:       right; 
+		  position:         absolute;
+		  height:           100%; 
+		}
+
+		#sidebar {
+		  width:            125.8px;
+		  font-family:      "FF DIN Pro Light",sans-serif;
+		  font-size:        12pt;
+		  font-style:       normal;
+		  background-color: rgb(255, 255, 255);
+		  color:            #CC0000;
+		  text-align:       right; 
+		 }
+	</style>
+
 	<script type="text/javascript">
 		$(document).ready(function () {
-		    var length = $('#left').height() - $('#sidebar').height() + $('#left').offset().top;
+			var left = document.getElementById("left");
+			var right = document.getElementsByTagName("right");
+			var sidebar = document.getElementsByTagName("sidebar");
+		    var length = left.style.height - sidebar.style.height() + left.style.offset().top;
 		    $(window).scroll(function () {
 		        var scroll = $(this).scrollTop();
-		        var height = $('#sidebar').height() + 'px';
-		        if (scroll < $('#left').offset().top) {
-		            $('#sidebar').css({
-		                'position': 'absolute',
-		                'top': '0'
-		            });
+		        var height = sidebar.style.height + 'px';
+		        if (scroll < $left.style.offset().top) {
+		        	sidebar.style.position = 'absolute';
+		        	sidebar.style.top = '0';
 		        } else if (scroll > length) {
-		            $('#sidebar').css({
-		                'position': 'absolute',
-		                'bottom': '0',
-		                'top': 'auto'
-		            });
+		        	sidebar.style.position = 'absolute';
+		        	sidebar.style.bottom = '0';
+		        	sidebar.style.top = 'top';
 		        } else {
-		            $('#sidebar').css({
-		                'position': 'fixed',
-		                'top': '0',
-		                'height': height
-		            });
+		        	sidebar.style.position = 'fixed';
+		        	sidebar.style.top = '0';
+		        	sidebar.style.height = height;
 		        }
 		    });
 		});
