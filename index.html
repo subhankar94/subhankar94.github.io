@@ -4,15 +4,43 @@
 <head>
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  	<!-- // <script type="text/javascript" src="jquery.js"></script> -->
-  	
+  	<script type="text/javascript" src="jquery.js"></script>
+
 	<link href="normalize_base.css" rel="stylesheet" type="text/css">
 
 	<!-- <style type="text/css">
 
+		#header {
+		  width:          740px;
+		  margin-left:    auto;
+		  margin-right:   auto; 
+		  /*height:         156px;*/
+		}
+
+		#headleft {
+		  width:          140px;
+		  float:          left;
+		  position:       relative;
+		}
+
+		#headright {
+		  width:          600px;
+		  background-color: rgb(255, 255, 255);
+		  float:          right;
+		  position:       relative;
+		}
+
+		#name {
+		  font-family:    "DINWeb-Light", sans-serif;
+		  font-size:      16pt;
+		  color:          black;
+		  letter-spacing: 2pt;
+		  text-align:     left;
+		}
+
 		#wrap {
-		  width:		  740px;
-		  margin-left:	  auto;
+		  width:          740px;
+		  margin-left:    auto;
 		  margin-right:   auto; 
 		  position:       relative;
 		}
@@ -21,23 +49,26 @@
 		  width:          600px;
 		  float:          right;
 		  position:       relative;
-		  margin-top:     15px;
-		  font-family:    "FF DIN Pro Light",sans-serif;
+		  font-family:    "DINWeb-Light",sans-serif;
 		  font-size:      12pt;
 		  line-height:    18pt;
 		  font-style:     normal;
 		  background-color: rgb(255, 255, 255);
 		  color:          dimgrey;
+		  /*margin-bottom:  250px;*/
 		  position:       relative;
 		}
 
 		#left {
 		  width:            125.8px;
-		  margin-top:       159px;
-		  font-family:      "FF DIN Pro Light",sans-serif;
+		  /*float:            left;*/
+		  margin-top:       156px;
+		  font-family:      "DINWeb-Light",sans-serif;
 		  font-size:        12pt;
 		  font-style:       normal;
+		  /*letter-spacing:   1pt;*/
 		  background-color: rgb(255, 255, 255);
+		  /*color:        rgb(212,175,55);*/
 		  color:            #CC0000;
 		  text-align:       right; 
 		  position:         absolute;
@@ -46,7 +77,9 @@
 
 		#sidebar {
 		  width:            125.8px;
-		  font-family:      "FF DIN Pro Light",sans-serif;
+		  /*float:            left;*/
+		  /*margin-top:       158px;*/
+		  font-family:      "DINWeb-Light",sans-serif;
 		  font-size:        12pt;
 		  font-style:       normal;
 		  background-color: rgb(255, 255, 255);
@@ -54,26 +87,13 @@
 		  text-align:       right; 
 		 }
 
-		 #footer {
-		  height:  250px;
-		 }
-
 		#sidebar  a:link {color:#CC0000; text-decoration:none; opacity: 0.5;}      /* unvisited link */
 		#sidebar  a:visited {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* visited link */
 		#sidebar  a:hover {color:#CC0000; text-decoration:none; opacity: 1;}  /* mouse over link */
 		#sidebar  a:active {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* selected link */
 
-		p.name {
-		  font-family:    "FF DIN Pro Light", sans-serif;
-		  font-size:      16pt;
-		  color:        black;
-		  letter-spacing:   2pt;
-		  text-align:     left;
-
-		}
-
 		p.heading {
-		  font-family:    "FF DIN Pro Light", sans-serif;
+		  font-family:    "DINWeb-Light", sans-serif;
 		  font-size:      12pt;
 		  color:        black;
 		  text-align:     left;
@@ -126,7 +146,7 @@
 
 	<div id="wrap">
 		<div id="left">
-			<div id="sidebar">
+			<div id="sidebar"><br><br><br><br><br><br><br><br><br>
 				<p><a href="#NOW">NOW</a></p>
 				<p><a href="#SOMETIME">SOMETIME AGO</a></p>
 				<p><a href="#LAST">LAST SEEN</a></p>
@@ -134,11 +154,17 @@
 				<p><a href="">RESUME</a></p>
 				<p><a href="#CONTACT">CONTACT</a></p>
 			</div>
+		</div>
+
+		<div id="header">
+			<div id="headleft"></div>
+			<div id="headright">
+				<div id="name"><br><br><br><br>SUBHANKAR GHOSH<br><br><br></div>
+			</div>
 		</div>	
 
-		<div id="content"><br><br>
-			<p class="name">SUBHANKAR GHOSH</p>
-			<div id="NOW"><br>
+		<div id="content">
+			<div id="NOW">
 				<p>I'm a student at New York University's College of Arts & Sciences, majoring in Mathematics & Computer Science.</p>
 		
 				<p>If it's still the Summer of 2015, then I'm a Decision Sciences Intern at <a href="http://www.capitalfloat.com">
@@ -197,7 +223,7 @@
 					2012: Probably some combination of Economics, Politics & Philosophy<br>
 					2013: Maybe some combination of Economics, Politics & Philosophy<br>
 					2014: Maybe Economics & Computer Science<br>
-					2015: Maybe Mathematics & Computer Science</p><br>
+					2015: Mathematics & Computer Science</p><br>
 			</div>
 
 			<div id="CONTACT"><br>
