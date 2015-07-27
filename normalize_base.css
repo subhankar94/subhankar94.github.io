@@ -75,10 +75,10 @@ body {
   text-align:       right; 
  }
 
-#sidebar  a:link {color:#CC0000; text-decoration:none;}      /* unvisited link */
-#sidebar  a:visited {color:#CC0000; text-decoration:none;}  /* visited link */
-#sidebar  a:hover {color:#CC0000; text-decoration:none;}  /* mouse over link */
-#sidebar  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
+#sidebar  a:link {color:#CC0000; text-decoration:none; opacity: 0.5;}      /* unvisited link */
+#sidebar  a:visited {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* visited link */
+#sidebar  a:hover {color:#CC0000; text-decoration:none; opacity: 1;}  /* mouse over link */
+#sidebar  a:active {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* selected link */
 
 p.name {
   font-family:    "DINWeb-Light", sans-serif;
