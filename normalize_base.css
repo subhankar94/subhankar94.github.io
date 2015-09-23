@@ -26,77 +26,73 @@ body {
 }
 
 #wrap {
-  width:        740px;
+  width:          768px;
   margin-left:    auto;
   margin-right:   auto; 
-  position:       relative;
+  display:        block;
 }
 
-#content {
-  width:          600px;
+#right {
+  width:          512px;
   float:          right;
   position:       relative;
-  margin-top:     15px;
+  margin-top:     19px;
   font-family:    "DINWeb-Light",sans-serif;
   font-size:      12pt;
-  line-height:    18pt;
+  line-height:    17pt;
   font-style:     normal;
   background-color: rgb(255, 255, 255);
   color:          dimgrey;
   margin-bottom:  250px;
-  position:       relative;
 }
 
+
+
 #left {
-  width:            125.8px;
-  /*float:            left;*/
-  margin-top:       159px;
+  width:            256px;
+  float:            left;
+  margin-top:       15px;
   font-family:      "DINWeb-Light",sans-serif;
-  font-size:        12pt;
+  font-size:        10pt;
   font-style:       normal;
-  /*letter-spacing:   1pt;*/
   background-color: rgb(255, 255, 255);
-  /*color:        rgb(212,175,55);*/
-  color:            #CC0000;
-  text-align:       right; 
-  position:         absolute;
+  text-align:       left; 
   height:           100%; 
 }
 
+#name {
+  font-size: 24pt;
+  line-height: 24pt;
+  padding-top: 3px;
+}
+
 #sidebar {
-  width:            125.8px;
   /*float:            left;*/
-  /*margin-top:       158px;*/
   font-family:      "DINWeb-Light",sans-serif;
-  font-size:        12pt;
+  font-size:        13px;
+  line-height:      16px;
   font-style:       normal;
   background-color: rgb(255, 255, 255);
-  color:            #CC0000;
-  text-align:       right; 
+  /*color:            #CC0000;*/
+  text-align:       left; 
+  padding-right:    10px;
  }
 
-#sidebar  a:link {color:#CC0000; text-decoration:none; opacity: 0.5;}      /* unvisited link */
-#sidebar  a:visited {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* visited link */
-#sidebar  a:hover {color:#CC0000; text-decoration:none; opacity: 1;}  /* mouse over link */
-#sidebar  a:active {color:#CC0000; text-decoration:none; opacity: 0.5;}  /* selected link */
 
-p.name {
-  font-family:    "DINWeb-Light", sans-serif;
-  font-size:      16pt;
-  color:        black;
-  letter-spacing:   2pt;
-  text-align:     left;
+ #triptych {
+    padding-right:     4px;
+    color:            dimgrey;
+ }
 
-}
+ #navigation {
+    padding-right:     4px;
+ }
 
-p.heading {
-  font-family:    "DINWeb-Light", sans-serif;
-  font-size:      12pt;
-  color:        black;
-  text-align:     left;
-  /*letter-spacing:   1pt;*/
-  /*color:        rgb(128, 128, 128);*/
-}
+
+#navigation  a:link {color:black; text-decoration:none;}      /* unvisited link */
+#navigation  a:visited {color:black; text-decoration:none;}  /* visited link */
+#navigation  a:hover {color:black; text-decoration:none;}  /* mouse over link */
+#navigation  a:active {color:black; text-decoration:none;}  /* selected link */
 
 #content  a:link {color:#CC0000; text-decoration:none;}      /* unvisited link */
 #content  a:visited {color:#CC0000; text-decoration:none;}  /* visited link */
