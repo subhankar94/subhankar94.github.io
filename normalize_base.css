@@ -46,20 +46,6 @@ body {
   margin-bottom:  250px;
 }
 
-#right-courses {
-  width:          512px;
-  float:          right;
-  position:       relative;
-  margin-top:     19px;
-  font-family:    "DINWeb-Light",sans-serif;
-  font-size:      10pt;
-  line-height:    14pt;
-  font-style:     normal;
-  background-color: rgb(255, 255, 255);
-  color:          dimgrey;
-  margin-bottom:  250px;
-}
-
 
 #left {
   width:            256px;
@@ -102,7 +88,7 @@ body {
  }
 
  #semester {
-  font-size: 24pt;
+  font-size: 12pt;
   color:            #CC0000;
  }
 
