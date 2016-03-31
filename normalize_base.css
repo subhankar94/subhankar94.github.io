@@ -88,7 +88,7 @@ body {
  }
 
  #semester {
-  /*font-size:        12pt;*/
+  font-size:        12pt;
   color:            #CC0000;
  }
 
@@ -102,6 +102,11 @@ body {
 #content  a:visited {color:#CC0000; text-decoration:none;}  /* visited link */
 #content  a:hover {color:#CC0000; text-decoration:underline;}  /* mouse over link */
 #content  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
+
+#name  a:link {color:black; text-decoration:none;}      /* unvisited link */
+#name  a:visited {color:black; text-decoration:none;}  /* visited link */
+#name  a:hover {color:black; text-decoration:underline;}  /* mouse over link */
+#name  a:active {color:black; text-decoration:none;}  /* selected link */
 
 /* HTML5 display definitions
    ========================================================================== */
