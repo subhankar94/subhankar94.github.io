@@ -1,0 +1,55 @@
+
+==================================================================
+https://keybase.io/subhankar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://subhankarghosh.com
+  * I am subhankar (https://keybase.io/subhankar) on keybase.
+  * I have a public key ASDOfIwXn2HsjckIiGAkK4hClcUXC6uosVn9C9gK0uLiZwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015858655e6571a81f9549f3e45ce904be7d3d38a09402e17e9f73a2cdd7da503f0a",
+            "host": "keybase.io",
+            "kid": "0120ce7c8c179f61ec8dc9088860242b884295c5170baba8b159fd0bd80ad2e2e2670a",
+            "uid": "361e0eea98270d99477a3725a68b5019",
+            "username": "subhankar"
+        },
+        "service": {
+            "hostname": "subhankarghosh.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.9"
+    },
+    "ctime": 1461967141,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1461967125,
+        "hash": "60a29109d6b32e239aa0e419e92f3268d34af47a8cf9d0480ab4d6711f3f20aa3a3a002e0e77b4ef9408270c1442afca3e7ccdb7227fb1d639f5389c60e9c123",
+        "seqno": 453873
+    },
+    "prev": "4e41d1a8a9169b4e60613db4746deae74875a1475a2f5aa5c68d8c423e4f9b10",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgznyMF59h7I3JCIhgJCuIQpXFFwurqLFZ/QvYCtLi4mcKp3BheWxvYWTFAvp7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxNTg1ODY1NWU2NTcxYTgxZjk1NDlmM2U0NWNlOTA0YmU3ZDNkMzhhMDk0MDJlMTdlOWY3M2EyY2RkN2RhNTAzZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2U3YzhjMTc5ZjYxZWM4ZGM5MDg4ODYwMjQyYjg4NDI5NWM1MTcwYmFiYThiMTU5ZmQwYmQ4MGFkMmUyZTI2NzBhIiwidWlkIjoiMzYxZTBlZWE5ODI3MGQ5OTQ3N2EzNzI1YTY4YjUwMTkiLCJ1c2VybmFtZSI6InN1YmhhbmthciJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic3ViaGFua2FyZ2hvc2guY29tIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuOSJ9LCJjdGltZSI6MTQ2MTk2NzE0MSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDYxOTY3MTI1LCJoYXNoIjoiNjBhMjkxMDlkNmIzMmUyMzlhYTBlNDE5ZTkyZjMyNjhkMzRhZjQ3YThjZjlkMDQ4MGFiNGQ2NzExZjNmMjBhYTNhM2EwMDJlMGU3N2I0ZWY5NDA4MjcwYzE0NDJhZmNhM2U3Y2NkYjcyMjdmYjFkNjM5ZjUzODljNjBlOWMxMjMiLCJzZXFubyI6NDUzODczfSwicHJldiI6IjRlNDFkMWE4YTkxNjliNGU2MDYxM2RiNDc0NmRlYWU3NDg3NWExNDc1YTJmNWFhNWM2OGQ4YzQyM2U0ZjliMTAiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEDFLkfciniSI5/U0Yi2Uv9C/Vpv+luBKFD8ddW/ItoEe6W4plJx6Dt93+riobz73i7Wq9gKzMDZ8Y6Q/zkq1NMIqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/subhankar
+
+==================================================================
