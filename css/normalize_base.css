@@ -29,84 +29,25 @@ body {
   width:          768px;
   margin-left:    auto;
   margin-right:   auto; 
+  margin-top:     50px;
   display:        block;
-}
-
-#right {
-  width:          512px;
-  float:          right;
-  position:       relative;
-  margin-top:     19px;
   font-family:    "DINWeb-Light",sans-serif;
-  font-size:      12pt;
-  line-height:    17pt;
-  font-style:     normal;
-  background-color: rgb(255, 255, 255);
+/*  background-color: rgb(255, 255, 255);*/
   color:          dimgrey;
-  margin-bottom:  250px;
-}
-
-
-#left {
-  width:            256px;
-  float:            left;
-  margin-top:       15px;
-  font-family:      "DINWeb-Light",sans-serif;
-  font-size:        10pt;
-  font-style:       normal;
-  background-color: rgb(255, 255, 255);
-  text-align:       left; 
-  height:           100%; 
+  font-size:      12px;
+  line-height:    16px;
 }
 
 #name {
-  font-size: 24pt;
-  line-height: 24pt;
+  font-size: 18pt;
+  line-height: 18pt;
   padding-top: 3px;
 }
 
-#sidebar {
-  /*float:            left;*/
-  font-family:      "DINWeb-Light",sans-serif;
-  font-size:        13px;
-  line-height:      16px;
-  font-style:       normal;
-  background-color: rgb(255, 255, 255);
-  /*color:            #CC0000;*/
-  text-align:       left; 
-  padding-right:    10px;
- }
-
-
- #triptych {
-    padding-right:     4px;
-    color:            dimgrey;
- }
-
- #navigation {
-    padding-right:     4px;
- }
-
- #semester {
-  font-size:        12pt;
-  color:            #CC0000;
- }
-
-
-#navigation  a:link {color:black; text-decoration:none;}      /* unvisited link */
-#navigation  a:visited {color:black; text-decoration:none;}  /* visited link */
-#navigation  a:hover {color:black; text-decoration:none;}  /* mouse over link */
-#navigation  a:active {color:black; text-decoration:none;}  /* selected link */
-
-#content  a:link {color:#CC0000; text-decoration:none;}      /* unvisited link */
-#content  a:visited {color:#CC0000; text-decoration:none;}  /* visited link */
-#content  a:hover {color:#CC0000; text-decoration:underline;}  /* mouse over link */
-#content  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
-
-#name  a:link {color:black; text-decoration:none;}      /* unvisited link */
-#name  a:visited {color:black; text-decoration:none;}  /* visited link */
-#name  a:hover {color:black; text-decoration:underline;}  /* mouse over link */
-#name  a:active {color:black; text-decoration:none;}  /* selected link */
+#wrap  a:link {color:dimgrey; text-decoration:none;}      /* unvisited link */
+#wrap  a:visited {color:dimgrey; text-decoration:none;}  /* visited link */
+#wrap  a:hover {color:#CC0000; text-decoration:none;}  /* mouse over link */
+#wrap  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
 
 /* HTML5 display definitions
    ========================================================================== */
