@@ -21,12 +21,8 @@ html {
   src: url('DINWeb-Light.woff') format('woff');
 }
 
-body {
-  margin: 0;
-}
-
-#wrap {
-  width:          768px;
+#main {
+  /*width:          768px;*/
   margin-left:    auto;
   margin-right:   auto; 
   margin-top:     50px;
@@ -44,10 +40,11 @@ body {
   padding-top: 3px;
 }
 
-#wrap  a:link {color:dimgrey; text-decoration:none;}      /* unvisited link */
-#wrap  a:visited {color:dimgrey; text-decoration:none;}  /* visited link */
-#wrap  a:hover {color:#CC0000; text-decoration:none;}  /* mouse over link */
-#wrap  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
+#main  a:link {color:dimgrey; text-decoration:none;}      /* unvisited link */
+#main  a:visited {color:dimgrey; text-decoration:none;}  /* visited link */
+#main  a:hover {color:#CC0000; text-decoration:none;}  /* mouse over link */
+#main  a:active {color:#CC0000; text-decoration:none;}  /* selected link */
+
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -108,26 +105,6 @@ template {
   display: none;
 }
 
-/* Links
-   ========================================================================== */
-
-/**
- * Remove the gray background color from active links in IE 10.
- */
-
-a {
-  background-color: transparent;
-}
-
-/**
- * Improve readability when focused and also mouse hovered in all browsers.
- */
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
 /* Text-level semantics
    ========================================================================== */
 
@@ -181,101 +158,4 @@ mark {
 
 small {
   font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-
-img {
-  border: 0;
-}
-
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-
-figure {
-  margin: 1em 40px;
-}
-
-/**
- * Address differences between Firefox and other browsers.
- */
-
-hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
-}
-
-/**
- * Contain overflow in all browsers.
- */
-
-pre {
-  overflow: auto;
-}
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/* Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
 }
